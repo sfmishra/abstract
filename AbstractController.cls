@@ -21,6 +21,6 @@ public abstract class AbstractController {
 	}
 
 	// this method needs to be implemented by all class extending this
-	public abstract calculate(Integer val1, Integer val2);
+	public abstract Integer calculate(Integer val1, Integer val2);
 
 }
