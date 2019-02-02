@@ -3,7 +3,7 @@
  * Abstract class cannot be instantiated and contains one abstract method.
  */
 public abstract class AbstractController {
-
+	public Integer result;
 	public Integer getresult() {
 		if(result != null) {
 			return result;
